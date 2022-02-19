@@ -1,0 +1,40 @@
+<%- include("partials/header"); -%>
+<h1 class="contact-title">Get in contact with us</h1>
+
+
+<div class="contact-grid">
+
+
+<div class="contact-form">
+  <form>
+       <div class="form-group">
+    <label for="formGroupExampleInput">Name</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+  </div>
+      <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input
+        type="email"
+        class="form-control"
+        id="exampleFormControlInput1"
+        placeholder="name@example.com"
+      />
+    </div>
+       <div class="form-group">
+    <label for="formGroupExampleInput">Make/Model of your car</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Toyota MR2">
+  </div>
+      <label for="exampleFormControlTextarea1">Message</label>
+      <textarea
+        class="form-control"
+        id="exampleFormControlTextarea1"
+        rows="3"
+      ></textarea>
+      <input class="btn contact-submit btn-light" type="submit" value="Submit">
+
+    </div>
+  </form>
+  <%- include("partials/contact-info"); -%>
+</div>
+</div>
+<%- include("partials/footer"); -%>

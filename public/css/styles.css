@@ -1,0 +1,115 @@
+body,
+html {
+  height: 100%;
+  background-color: #1a2238;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.contact-info {
+  margin-bottom: 1rem;
+}
+
+/* Main Page */
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://c4.wallpaperflare.com/wallpaper/297/975/797/city-lights-night-car-nissan-skyline-gt-r-r34-nissan-skyline-gt-r-r33-hd-wallpaper-preview.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-about {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 3rem 8rem;
+}
+
+/* Projects */
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  padding: 3rem 8rem;
+  grid-gap: 1rem;
+}
+
+.car-image {
+  border-radius: 10%;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+/* Services */
+
+.services-grid {
+  display: grid;
+  padding: 3rem 8rem;
+}
+.grid-item {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.services-img {
+  border-radius: 10%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+/* Contact Form */
+.contact-title {
+  padding-bottom: 2rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 1rem;
+  padding: 3rem 8rem;
+}
+
+.contact-form {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+.contact-submit {
+  margin-top: 5%;
+}
+
+/* Footer */
+.socials {
+  border: none;
+  border-radius: 4px;
+  background-color: #1a2238;
+  color: white;
+}
+.socials:hover {
+  background-color: #3e4d74;
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  padding-top: 5%;
+}
